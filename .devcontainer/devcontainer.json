@@ -1,0 +1,17 @@
+{
+	"name": "Existing Dockerfile",
+	"build": {
+		"context": ".",
+		"dockerfile": "dev.Dockerfile"
+	},
+	"updateContentCommand": ".devcontainer/updateContent.sh ${workspaceFolder}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"cweijan.vscode-typora",
+				"ms-vscode.cmake-tools",
+				"ms-vscode.cpptools"
+			]
+		}
+	}
+}

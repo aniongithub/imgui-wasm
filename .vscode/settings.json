@@ -1,0 +1,9 @@
+{
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/cmake/emscripten.cmake",
+        "-DEMSCRIPTEN_ROOT_PATH=/usr/local/src/emsdk/upstream/emscripten",
+        // Get rid of this suppression when you can figure out how to make this go away
+        // https://stackoverflow.com/questions/66329704/cmake-deprecation-warning-messagedeprecation-the-cmake-force-c-compiler-mac
+        "-Wno-deprecated"
+    ]
+}
