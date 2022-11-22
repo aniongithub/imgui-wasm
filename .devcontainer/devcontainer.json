@@ -10,7 +10,8 @@
 			"extensions": [
 				"cweijan.vscode-typora",
 				"ms-vscode.cmake-tools",
-				"ms-vscode.cpptools"
+				"ms-vscode.cpptools",
+				"zaaack.markdown-editor"
 			]
 		}
 	}
