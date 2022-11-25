@@ -1,6 +1,6 @@
 # ImGui WASM
 
-This repository is an example of how to compile Omar [Cornut's excellent Dear ImGui](https://github.com/ocornut/imgui) library and demo as a web assembly for use within a browser.
+This repository is an example of how to compile [Omar Cornut's excellent Dear ImGui](https://github.com/ocornut/imgui) library and demo as a web assembly for use within a browser.
 
 ## Getting started
 
